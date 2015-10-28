@@ -39,4 +39,9 @@
 		android:title="@string/wake_when_plugged_or_unplugged_title"
 		android:defaultValue="false" />
 
+	<PreferenceScreen
+                android:key="expanded_desktop_category"
+                android:title="@string/expanded_desktop_title"
+                android:fragment="com.armory.settings.ui.ExpandedDesktop"/>
+
 </PreferenceScreen>
