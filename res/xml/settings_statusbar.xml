@@ -37,6 +37,11 @@
 		android:defaultValue="false" />
 -->
 
+        <PreferenceScreen
+            android:key="clock_settings"
+            android:title="@string/status_bar_clock"
+            android:fragment="com.armory.settings.ui.ClockOptions" />
+
 	<com.android.settings.preferences.SystemSettingSwitchPreference
 		android:key="network_traffic_state"
 		android:title="@string/network_traffic_state_title"
