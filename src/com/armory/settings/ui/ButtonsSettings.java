@@ -111,6 +111,11 @@ public class ButtonsSettings extends ActionFragment implements Preference.OnPref
     }
 
     @Override
+    protected boolean usesExtendedActionsList() {
+        return true;
+    }
+
+    @Override
     public boolean onPreferenceChange(Preference preference, Object newValue) {
         return true;
     }
