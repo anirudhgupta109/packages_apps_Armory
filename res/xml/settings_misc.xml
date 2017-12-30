@@ -51,4 +51,8 @@
         android:summary="@string/vibration_on_charge_state_changed_summary"
         android:defaultValue="true" />
 
+    <PreferenceScreen
+        android:key="power_menu"
+        android:title="@string/powermenu_title"
+        android:fragment="com.armory.settings.ui.PowerMenu"/>
 </PreferenceScreen>

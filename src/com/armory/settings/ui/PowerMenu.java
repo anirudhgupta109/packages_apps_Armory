@@ -43,7 +43,7 @@ public class PowerMenu extends SettingsPreferenceFragment implements Preference.
     private SwitchPreference mPowerMenuReboot;
     private SwitchPreference mPowerMenuAdvancedReboot;
     private SwitchPreference mPowerMenuScreenshot;
-    private SwitchPreference mPowerMenuAirplane;
+//    private SwitchPreference mPowerMenuAirplane;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -70,10 +70,10 @@ public class PowerMenu extends SettingsPreferenceFragment implements Preference.
                 Settings.System.POWERMENU_LS_SCREENSHOT, 0) == 1));
         mPowerMenuScreenshot.setOnPreferenceChangeListener(this);
 
-        mPowerMenuAirplane = (SwitchPreference) findPreference(KEY_POWERMENU_LS_AIRPLANE);
-        mPowerMenuAirplane.setChecked((Settings.System.getInt(getContentResolver(),
-                Settings.System.POWERMENU_LS_AIRPLANE, 0) == 1));
-        mPowerMenuAirplane.setOnPreferenceChangeListener(this);
+//        mPowerMenuAirplane = (SwitchPreference) findPreference(KEY_POWERMENU_LS_AIRPLANE);
+//        mPowerMenuAirplane.setChecked((Settings.System.getInt(getContentResolver(),
+//                Settings.System.POWERMENU_LS_AIRPLANE, 0) == 1));
+//        mPowerMenuAirplane.setOnPreferenceChangeListener(this);
 
         updateLockscreen();
     }
@@ -100,11 +100,11 @@ public class PowerMenu extends SettingsPreferenceFragment implements Preference.
             Settings.System.putInt(getActivity().getContentResolver(),
                     Settings.System.POWERMENU_LS_SCREENSHOT, value ? 1 : 0);
             return true;
-        } else if (preference == mPowerMenuAirplane) {
-            boolean value = (Boolean) objValue;
-            Settings.System.putInt(getActivity().getContentResolver(),
-                    Settings.System.POWERMENU_LS_AIRPLANE, value ? 1 : 0);
-            return true;
+//        } else if (preference == mPowerMenuAirplane) {
+//            boolean value = (Boolean) objValue;
+//            Settings.System.putInt(getActivity().getContentResolver(),
+//                    Settings.System.POWERMENU_LS_AIRPLANE, value ? 1 : 0);
+//            return true;
         }
         return false;
     }
@@ -122,12 +122,12 @@ public class PowerMenu extends SettingsPreferenceFragment implements Preference.
             mPowerMenuReboot.setEnabled(true);
             mPowerMenuAdvancedReboot.setEnabled(true);
             mPowerMenuScreenshot.setEnabled(true);
-            mPowerMenuAirplane.setEnabled(true);
+//            mPowerMenuAirplane.setEnabled(true);
         } else {
             mPowerMenuReboot.setEnabled(false);
             mPowerMenuAdvancedReboot.setEnabled(false);
             mPowerMenuScreenshot.setEnabled(false);
-            mPowerMenuAirplane.setEnabled(false);
+//            mPowerMenuAirplane.setEnabled(false);
         }
     }
 }
