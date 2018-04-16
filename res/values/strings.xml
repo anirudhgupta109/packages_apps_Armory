@@ -46,6 +46,13 @@
 	<string name="volume_media_title">Contol Media Volume</string>
 	<string name="volume_media_summary">Default to controlling media volume with buttons</string>
 
+        <string name="device_extras_title">Device extras</string>
+	<string name="device_extras_summary">Device specific settings</string>
+
+        <!-- Default extras for most devices. Overlay as needed -->
+        <string name="device_extras_target_package">com.invictrix.settings.device</string>
+        <string name="device_extras_target_class">com.invictrix.settings.device.TouchscreenGestureSettings</string>
+
 	<string name="music_control_title">Music Control</string>
 	<string name="music_control_summary">When the screen is off, long press the volume buttons to skip music tracks</string>
 
