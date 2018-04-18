@@ -24,9 +24,4 @@
 			android:targetClass="com.android.systemui.tuner.NavBarTunerActivity" />
 	</Preference>
 
-	<com.android.settings.preferences.SystemSettingSwitchPreference
-		android:key="pixel_nav_animation"
-		android:title="@string/pixel_navbar_animation"
-		android:defaultValue="true" />
-
 </PreferenceScreen>

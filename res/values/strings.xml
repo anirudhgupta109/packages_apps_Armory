@@ -38,8 +38,6 @@
 	<string name="dt2s_lockscreen_title">Double Tap To Sleep</string>
 	<string name="dt2s_lockscreen_summary">Double tap on the lock screen to sleep</string>
 
-	<string name="pixel_navbar_animation">Pixel Navbar Animation</string>
-
 	<string name="swap_volume_buttons_title">Swap Volume Buttons</string>
 	<string name="swap_volume_buttons_summary">Swap volume buttons while rotated</string>
 
