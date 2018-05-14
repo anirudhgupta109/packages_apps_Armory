@@ -91,8 +91,6 @@
 
 	<string name="network_traffic_autohide_threshold_title">Auto Hide Traffic Icon Threshold</string>
 
-	<string name="wake_when_plugged_or_unplugged_title">Wake Up When Disconnecting or Connecting USB</string>
-
 	<string name="heads_up_notifications_enabled_title">Heads Up Notifications</string>
 
     <!-- DUI -->
@@ -387,4 +385,7 @@
     <string name="qs_columns_landscape_title">Tiles columns on landscape</string>
     <string name="qs_tile_title_visibility_title">Show tiles title</string>
 
+    <!-- Wake on Plug -->
+    <string name="wake_when_plugged_or_unplugged_title">Wake on plug</string>
+    <string name="wake_when_plugged_or_unplugged_summary">Turn the screen on when connecting or disconnecting a power source</string>
 </resources>
