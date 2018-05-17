@@ -33,11 +33,40 @@
         android:title="@string/powermenu_screenshot_title"
         android:defaultValue="false" />
 
-<!--
+    <com.android.settings.preferences.SystemSettingSwitchPreference
+        android:key="powermenu_screen_record"
+        android:title="@string/powermenu_screenrecord_title"
+        android:defaultValue="false" />
+
     <com.android.settings.preferences.SystemSettingSwitchPreference
         android:key="powermenu_airplane"
         android:title="@string/powermenu_airplane_title"
-        android:defaultValue="false" /> -->
+        android:defaultValue="false" />
+
+    <com.android.settings.preferences.SystemSettingSwitchPreference
+        android:key="powermenu_kill_task"
+        android:title="@string/powermenu_kill_task_title"
+        android:defaultValue="false" />
+
+    <com.android.settings.preferences.SystemSettingSwitchPreference
+        android:key="powermenu_lockdown"
+        android:title="@string/powermenu_lockdown_title"
+        android:defaultValue="false" />
+
+    <com.android.settings.preferences.SystemSettingSwitchPreference
+        android:key="powermenu_google_assistant"
+        android:title="@string/powermenu_google_assistant_title"
+        android:defaultValue="false" />
+
+    <com.android.settings.preferences.SystemSettingSwitchPreference
+        android:key="powermenu_settings"
+        android:title="@string/powermenu_settings_title"
+        android:defaultValue="false" />
+
+    <com.android.settings.preferences.SystemSettingSwitchPreference
+        android:key="powermenu_soundpanel"
+        android:title="@string/powermenu_soundpanel_title"
+        android:defaultValue="false" />
 
     <PreferenceCategory
         android:key="powermenu_category_visibility"
@@ -70,13 +99,33 @@
             android:dependency="powermenu_screenshot"
             android:defaultValue="false" />
 
-<!--
         <SwitchPreference
             android:key="powermenu_ls_airplane"
             android:title="@string/powermenu_airplane_title"
             android:summary="@string/powermenu_ls_airplane_summary"
             android:dependency="powermenu_airplane"
-            android:defaultValue="false" /> -->
+            android:defaultValue="false" />
+
+        <com.android.settings.preferences.SystemSettingSwitchPreference
+            android:key="powermenu_ls_airplane"
+            android:title="@string/powermenu_airplane_title"
+            android:summary="@string/powermenu_ls_airplane_summary"
+            android:dependency="powermenu_airplane"
+            android:defaultValue="false" />
+
+        <com.android.settings.preferences.SystemSettingSwitchPreference
+            android:key="powermenu_ls_screen_record"
+            android:title="@string/powermenu_screenrecord_title"
+            android:summary="@string/powermenu_ls_screen_record_summary"
+            android:dependency="powermenu_screen_record"
+            android:defaultValue="false" />
+
+        <com.android.settings.preferences.SystemSettingSwitchPreference
+            android:key="powermenu_ls_soundpanel"
+            android:title="@string/powermenu_soundpanel_title"
+            android:summary="@string/powermenu_ls_soundpanel_summary"
+            android:dependency="powermenu_soundpanel"
+            android:defaultValue="false" />
 
     </PreferenceCategory>
 

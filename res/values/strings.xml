@@ -409,6 +409,12 @@
     <string name="powermenu_advanced_reboot_title">Advanced reboot</string>
     <string name="powermenu_advanced_reboot_summary">Enables the advanced reboot menu for rebooting options such hot, recovery and bootloader. Also adds as an option to restart SystemUI</string>
     <string name="powermenu_screenshot_title">Screenshot</string>
+    <string name="powermenu_screenrecord_title">Screen Record</string>
+    <string name="powermenu_kill_task_title">Kill Task</string>
+    <string name="powermenu_lockdown_title">Screen Off</string>
+    <string name="powermenu_google_assistant_title">Google Assistant</string>
+    <string name="powermenu_settings_title">Settings</string>
+    <string name="powermenu_soundpanel_title">Sound Panel</string>
     <string name="powermenu_airplane_title">Airplane mode</string>
     <string name="powermenu_category_visibility">Lockscreen options</string>
     <string name="powermenu_lockscreen_title">Visibility on the lockscreen</string>
@@ -417,6 +423,8 @@
     <string name="powermenu_ls_advanced_reboot_summary">Show the advanced reboot option on the lockscreen</string>
     <string name="powermenu_ls_screenshot_summary">Show the screenshot option on the lockscreen</string>
     <string name="powermenu_ls_airplane_summary">Show the airplane mode option on the lockscreen</string>
+    <string name="powermenu_ls_screen_record_summary">Show the screen record option on the lockscreen</string>
+    <string name="powermenu_ls_soundpanel_summary">Show the sound panel option on the lockscreen</string>
 
     <!-- Tiles animation/interpolator style  -->
     <string name="qs_animation_options_title">Animations</string>
